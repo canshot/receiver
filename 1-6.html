@@ -1,0 +1,181 @@
+<html lang="en">
+<head>
+  
+
+<style>
+.center 
+{
+  text-align: center;
+  border: 3px;
+}
+</style>
+</head>
+<body>
+<div class="center">
+
+</div>
+
+</body>
+
+
+   <link href="css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+   <link href="css/tab.css" rel="stylesheet" id="bootstrap-css">
+    
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        window.alert = function(){};
+        var defaultCSS = document.getElementById('bootstrap-css');
+        function changeCSS(css){
+            if(css) $('head > link').filter(':first').replaceWith('<link rel="stylesheet" href="'+ css +'" type="text/css" />'); 
+            else $('head > link').filter(':first').replaceWith(defaultCSS); 
+        }
+        $( document ).ready(function() {
+          var iframe_height = parseInt($('html').height()); 
+          window.parent.postMessage( iframe_height, 'https://coderglass.com');
+        });
+    </script>
+</head>
+<body>
+
+
+
+
+
+	<div class="container">
+    <div class="row">
+        <div class="col-sm-3 col-md-2">
+            <div class="btn-group">
+                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+
+           <!-- <IMG SRC="gmail.jpg" WIDTH=60 HEIGHT=40>  -->
+           Gmail <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" role="menu">
+                    <li ><a  style='color:red;' href="#">Mail</a></li>
+                    <li><a href="#">Contacts</a></li>
+                    <li><a href="#">Tasks</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-sm-9 col-md-10">
+            <!-- Split button -->
+            <div class="btn-group">
+                <button type="button" class="btn btn-default">
+                    <div class="checkbox" style="margin: 0;">
+                        <label>
+                            <input type="checkbox">
+                        </label>
+                    </div>
+                </button>
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                    <span class="caret"></span><span class="sr-only">Toggle Dropdown</span>
+                </button>
+                <ul class="dropdown-menu" role="menu">
+                    <li><a href="#">All</a></li>
+                    <li><a href="#">None</a></li>
+                    <li><a href="#">Read</a></li>
+                    <li><a href="#">Unread</a></li>
+                    <li><a href="#">P1</a></li>
+                    <li><a href="#">P2</a></li>
+                </ul>
+            </div>
+            <button type="button" class="btn btn-default" data-toggle="tooltip" title="Refresh">
+                &nbsp;&nbsp;&nbsp;<span class="glyphicon glyphicon-refresh"></span>&nbsp;&nbsp;&nbsp;</button>
+            <!-- Single button -->
+            <div class="btn-group">
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                    More <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" role="menu">
+                    <li><a href="#">Mark all as read</a></li>
+                    <li class="divider"></li>
+                    <li class="text-center">
+					<small class="text-muted">Select messages to see more actions</small>
+					</li>
+                </ul>
+            </div>
+            <div class="pull-right">
+                <span class="text-muted"><b>6</b> of <b>10 </b></span>
+                <div class="btn-group btn-group-sm">
+                    <!--<button type="button" class="btn btn-default">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                    </button>-->
+                    <a href="1-6-post.html"><button type="button" class="btn btn-default">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr />
+    <div class="row">
+        <div class="col-sm-3 col-md-2">
+            <a href="#" class="btn btn-danger btn-sm btn-block" role="button">COMPOSE</a>
+            <hr />
+            <ul class="nav nav-pills nav-stacked">
+                <li class="active"><a href="1.html"><span class="badge pull-right">10</span> Inbox </a>
+                </li>
+                <li><a style='color:black;' href="">Starred</a></li>
+                <li><a style='color:black;' href="">Important</a></li>
+                <li><a style='color:black;' href="">Sent Mail</a></li>
+                <li><a style='color:black;' href="">
+				<!-- <span class="badge pull-right">445</span>Drafts</a></li> -->
+            </ul>
+        </div>
+        <div class="col-sm-9 col-md-10">
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs">
+                <li class="active"><a href="#home" data-toggle="tab">
+				<span class="glyphicon glyphicon-inbox">
+                </span>Inbox</a></li>
+                <li><a style="color:black;" href="#profile" data-toggle="tab">
+				<span class="glyphicon glyphicon-user">
+				</span>Social</a></li>
+                <li><a style="color:black;" href="#messages" data-toggle="tab">
+				<span class="glyphicon glyphicon-tags">
+				</span>Promotions</a></li>
+                <li><a style="color:black;" href="#settings" data-toggle="tab">
+				<span class="glyphicon glyphicon-plus no-margin">
+                </span></a></li>
+            </ul>
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div class="tab-pane fade in active" id="home">
+                <div style="padding-left:16px">
+
+
+
+              <!-- <IMG SRC="up.jpg">   -->
+
+<h1>
+    Ping! you got FREE dealsea Premium Membership!!
+</h1>
+
+<br>
+
+<p><font size="4.5" style="font-weight:bold;">User6</font>  James.Tom@dealsea.com</p>
+<p align="right">09:52 AM</p>
+<br>
+<p><font size="4" color="black" style="text-align: justify">
+
+    <p>Dear Ping!<br /> I hope this email finds you well.</p>  <p>&nbsp;</p>  
+    <p>This is Tom, form&nbsp;dealsea website. Our records show that you are an active buyer in the recent time and we would to offer you a premium membership that could save 15% in every purchase even on online or in store since that we have many stores in our network like Concord Mills, Walmart,Food lion and many others). 
+        Now, we are offering few free premium membership, and I believe you are qualified to get it.<br /> 
+        Please follow this <strong><a href="https:bit.ly/BMOCclick">link </a></strong>to submit your request for the&nbsp;premium membership as soon as you can before it is gone.</p>  <p><br /> Please let me know if you need any further assistance</p> <p>James&nbsp;<br /> 705-968-6393<br /> James.Tom@dealsea.com</p>  <p><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple118/v4/8d/af/c3/8dafc3db-7eae-c3e7-2738-886512c67992/AppIcon-1x_U007emarketing-85-220-7.jpeg/1200x630wa.png" style="height:100px; width:200px"/></p></p>
+
+					</span> 
+					
+					</a>
+                        
+                    </div>
+                </div>
+                
+            </div>
+           
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
