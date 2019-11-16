@@ -1,0 +1,170 @@
+<html lang="en">
+<head>
+  
+
+<style>
+.center 
+{
+  text-align: center;
+  border: 3px;
+}
+</style>
+</head>
+<body>
+<div class="center">
+
+</div>
+
+</body>
+
+
+   <link href="css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+   <link href="css/tab.css" rel="stylesheet" id="bootstrap-css">
+    
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        window.alert = function(){};
+        var defaultCSS = document.getElementById('bootstrap-css');
+        function changeCSS(css){
+            if(css) $('head > link').filter(':first').replaceWith('<link rel="stylesheet" href="'+ css +'" type="text/css" />'); 
+            else $('head > link').filter(':first').replaceWith(defaultCSS); 
+        }
+        $( document ).ready(function() {
+          var iframe_height = parseInt($('html').height()); 
+          window.parent.postMessage( iframe_height, 'https://coderglass.com');
+        });
+    </script>
+</head>
+<body>
+
+
+
+
+
+	<div class="container">
+    <div class="row">
+        <div class="col-sm-3 col-md-2">
+            <div class="btn-group">
+                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+
+           <!-- <IMG SRC="gmail.jpg" WIDTH=60 HEIGHT=40>  -->
+           Gmail <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" role="menu">
+                    <li ><a  style='color:red;' href="#">Mail</a></li>
+                    <li><a href="#">Contacts</a></li>
+                    <li><a href="#">Tasks</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-sm-9 col-md-10">
+            <!-- Split button -->
+            <div class="btn-group">
+                <button type="button" class="btn btn-default">
+                    <div class="checkbox" style="margin: 0;">
+                        <label>
+                            <input type="checkbox">
+                        </label>
+                    </div>
+                </button>
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                    <span class="caret"></span><span class="sr-only">Toggle Dropdown</span>
+                </button>
+                <ul class="dropdown-menu" role="menu">
+                    <li><a href="#">All</a></li>
+                    <li><a href="#">None</a></li>
+                    <li><a href="#">Read</a></li>
+                    <li><a href="#">Unread</a></li>
+                    <li><a href="#">P1</a></li>
+                    <li><a href="#">P2</a></li>
+                </ul>
+            </div>
+            <button type="button" class="btn btn-default" data-toggle="tooltip" title="Refresh">
+                &nbsp;&nbsp;&nbsp;<span class="glyphicon glyphicon-refresh"></span>&nbsp;&nbsp;&nbsp;</button>
+            <!-- Single button -->
+            <div class="btn-group">
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                    More <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" role="menu">
+                    <li><a href="#">Mark all as read</a></li>
+                    <li class="divider"></li>
+                    <li class="text-center">
+					<small class="text-muted">Select messages to see more actions</small>
+					</li>
+                </ul>
+            </div>
+            <div class="pull-right">
+                <span class="text-muted"><b>2</b> of <b>10 </b></span>
+                <div class="btn-group btn-group-sm">
+                    <!--<button type="button" class="btn btn-default">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                    </button>-->
+                    <a href="37-2-post.html"><button type="button" class="btn btn-default">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr />
+    <div class="row">
+        <div class="col-sm-3 col-md-2">
+            <a href="#" class="btn btn-danger btn-sm btn-block" role="button">COMPOSE</a>
+            <hr />
+            <ul class="nav nav-pills nav-stacked">
+                <li class="active"><a href=""><span class="badge pull-right">10</span> Inbox </a>
+                </li>
+                <li><a style='color:black;' href="">Starred</a></li>
+                <li><a style='color:black;' href="">Important</a></li>
+                <li><a style='color:black;' href="">Sent Mail</a></li>
+                <li><a style='color:black;' href="">
+				<!-- <span class="badge pull-right">445</span>Drafts</a></li> -->
+            </ul>
+        </div>
+        <div class="col-sm-9 col-md-10">
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs">
+                <li class="active"><a href="#home" data-toggle="tab">
+				<span class="glyphicon glyphicon-inbox">
+                </span>Inbox</a></li>
+                <li><a style="color:black;" href="#profile" data-toggle="tab">
+				<span class="glyphicon glyphicon-user">
+				</span>Social</a></li>
+                <li><a style="color:black;" href="#messages" data-toggle="tab">
+				<span class="glyphicon glyphicon-tags">
+				</span>Promotions</a></li>
+                <li><a style="color:black;" href="#settings" data-toggle="tab">
+				<span class="glyphicon glyphicon-plus no-margin">
+                </span></a></li>
+            </ul>
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div class="tab-pane fade in active" id="home">
+                <div style="padding-left:16px">
+
+<!-- Email subject -->
+<h1>
+
+    Illegal download of digital content
+</h1>
+<br>
+
+<!-- Email sender name -->
+<p><font size="4.5" style="font-weight:bold;">User2</font> adey1918@gmail.com</p>
+<p align="right">7:00 am Monday</p>
+<br>
+
+<!-- Email body -->
+<p><font size="4" color="black">
+
+    <p>Good day.</p>        <p>The University of North Carolina at Charlotte is committed to eliminating illegal downloads of copyright materials.&nbsp; As from Fall 2020, all students and staff found guilty of illegal copyright download are subject to strict penalty as enshrined in the University&#39;s code of conduct, Article 16B. While the university await the implementation of this&nbsp;injuction, the University&#39;s Center for Counselling and Student Activities is committed at counselling students that are found to be potentially culpable.&nbsp;</p>        <p>Your identity recently popped up on the University&#39;s IBM Watson server that you downloaded illegal content from a website. You also shared illegal content on the site. While you are subject to being reprimanded, there is a window for you to engage with the Counselling Unit now before the Fall 2020 session starts. The questionable website is &quot;Scrib&quot;.</p>        <p>You are advised to provide your name, student ID, the last 4 digit of your SSN and fill your availability on the UNC Counselling Service scheduling page. There is no assurance that you will get a slot but providing a phone contact will allow staff at the Counselling unit to reach you to schedule a time.</p>        <p>The university hopes you can make good use of this opportunity. Thannk you</p>                    
+            </div>
+           
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

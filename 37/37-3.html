@@ -1,0 +1,168 @@
+<html lang="en">
+<head>
+  
+
+<style>
+.center 
+{
+  text-align: center;
+  border: 3px;
+}
+</style>
+</head>
+<body>
+<div class="center">
+
+</div>
+
+</body>
+
+
+   <link href="css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+   <link href="css/tab.css" rel="stylesheet" id="bootstrap-css">
+    
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        window.alert = function(){};
+        var defaultCSS = document.getElementById('bootstrap-css');
+        function changeCSS(css){
+            if(css) $('head > link').filter(':first').replaceWith('<link rel="stylesheet" href="'+ css +'" type="text/css" />'); 
+            else $('head > link').filter(':first').replaceWith(defaultCSS); 
+        }
+        $( document ).ready(function() {
+          var iframe_height = parseInt($('html').height()); 
+          window.parent.postMessage( iframe_height, 'https://coderglass.com');
+        });
+    </script>
+</head>
+<body>
+
+
+
+
+
+	<div class="container">
+    <div class="row">
+        <div class="col-sm-3 col-md-2">
+            <div class="btn-group">
+                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+
+           <!-- <IMG SRC="gmail.jpg" WIDTH=60 HEIGHT=40>  -->
+           Gmail <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" role="menu">
+                    <li ><a  style='color:red;' href="#">Mail</a></li>
+                    <li><a href="#">Contacts</a></li>
+                    <li><a href="#">Tasks</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-sm-9 col-md-10">
+            <!-- Split button -->
+            <div class="btn-group">
+                <button type="button" class="btn btn-default">
+                    <div class="checkbox" style="margin: 0;">
+                        <label>
+                            <input type="checkbox">
+                        </label>
+                    </div>
+                </button>
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                    <span class="caret"></span><span class="sr-only">Toggle Dropdown</span>
+                </button>
+                <ul class="dropdown-menu" role="menu">
+                    <li><a href="#">All</a></li>
+                    <li><a href="#">None</a></li>
+                    <li><a href="#">Read</a></li>
+                    <li><a href="#">Unread</a></li>
+                    <li><a href="#">P1</a></li>
+                    <li><a href="#">P2</a></li>
+                </ul>
+            </div>
+            <button type="button" class="btn btn-default" data-toggle="tooltip" title="Refresh">
+                &nbsp;&nbsp;&nbsp;<span class="glyphicon glyphicon-refresh"></span>&nbsp;&nbsp;&nbsp;</button>
+            <!-- Single button -->
+            <div class="btn-group">
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                    More <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" role="menu">
+                    <li><a href="#">Mark all as read</a></li>
+                    <li class="divider"></li>
+                    <li class="text-center">
+					<small class="text-muted">Select messages to see more actions</small>
+					</li>
+                </ul>
+            </div>
+            <div class="pull-right">
+                <span class="text-muted"><b>3</b> of <b>10 </b></span>
+                <div class="btn-group btn-group-sm">
+                    <!--<button type="button" class="btn btn-default">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                    </button>-->
+                    <a href="37-3-post.html"><button type="button" class="btn btn-default">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr />
+    <div class="row">
+        <div class="col-sm-3 col-md-2">
+            <a href="#" class="btn btn-danger btn-sm btn-block" role="button">COMPOSE</a>
+            <hr />
+            <ul class="nav nav-pills nav-stacked">
+                <li class="active"><a href=""><span class="badge pull-right">10</span> Inbox </a>
+                </li>
+                <li><a style='color:black;' href="">Starred</a></li>
+                <li><a style='color:black;' href="">Important</a></li>
+                <li><a style='color:black;' href="">Sent Mail</a></li>
+                <li><a style='color:black;' href="">
+				<!-- <span class="badge pull-right">445</span>Drafts</a></li> -->
+            </ul>
+        </div>
+        <div class="col-sm-9 col-md-10">
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs">
+                <li class="active"><a href="#home" data-toggle="tab">
+				<span class="glyphicon glyphicon-inbox">
+                </span>Inbox</a></li>
+                <li><a style="color:black;" href="#profile" data-toggle="tab">
+				<span class="glyphicon glyphicon-user">
+				</span>Social</a></li>
+                <li><a style="color:black;" href="#messages" data-toggle="tab">
+				<span class="glyphicon glyphicon-tags">
+				</span>Promotions</a></li>
+                <li><a style="color:black;" href="#settings" data-toggle="tab">
+				<span class="glyphicon glyphicon-plus no-margin">
+                </span></a></li>
+            </ul>
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div class="tab-pane fade in active" id="home">
+                <div style="padding-left:16px">
+
+<!-- Email subject -->
+<h1>
+
+    Your Most Authentic Car Is On The Way</h1>
+<br>
+
+<!-- Email sender name -->
+<p><font size="4.5" style="font-weight:bold;">User3</font> thetennille@gmail.com</p>
+<p align="right">12:08 pm Wednesday</p>
+<br>
+
+<!-- Email body -->
+<p><font size="4" color="black">
+
+    <p>Hi Receiver.</p>        <p>You are have been randomly selected as a recipient of this email from CarGurus. As you would have known, CarGurus is both a car vendor and a car research company. We recently completed an analysis of the most authentic cars in your area (Charlotte, NC) and we are providing you with the most authentic, user friendly, and most rewarding car details in your area. The intention is to guide your choice, as we are more experienced in the field with over 20 years of car sales. This research was not funded by any external body and there is no disclosure we needed to make. We see it as our corporate social responsibility. The details of the research is available online at www.cargurus.com/research.</p>        <p>Based on your recent search on our website, it would be nice for you to know that the 2018 Audi A3 Sportback and the 2018 Chevrolet Volt are the most efficient cars in Chartlotte. While this information is generic, we have a more personalized algorithm to choose your most efficient car. You can either send us an email with your name, occupation, average daily travel distance, number of days you commute to work, email and phone contact, woth the last 4 digits of your social security number or you can simply fill the details oon our website: www.cargurus.com/personalized_car_model.</p>        <p>We are currently having an offer of 10% off the the price of any car you buy within the next 25days. If you decide to choose the&nbsp;2018 Audi A3 Sportback or the 2018 Chevrolet Volt, it comes with a 15% off and a two-year free maintenance check-up from CarGurus. We hopwe you utilizethis information and get your most authentic car from your trusted brand.</p>                </div>
+           
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
