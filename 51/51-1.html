@@ -1,0 +1,171 @@
+<html lang="en">
+<head>
+  
+
+<style>
+.center 
+{
+  text-align: center;
+  border: 3px;
+}
+</style>
+</head>
+<body>
+<div class="center">
+
+</div>
+
+</body>
+
+
+   <link href="css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+   <link href="css/tab.css" rel="stylesheet" id="bootstrap-css">
+    
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        window.alert = function(){};
+        var defaultCSS = document.getElementById('bootstrap-css');
+        function changeCSS(css){
+            if(css) $('head > link').filter(':first').replaceWith('<link rel="stylesheet" href="'+ css +'" type="text/css" />'); 
+            else $('head > link').filter(':first').replaceWith(defaultCSS); 
+        }
+        $( document ).ready(function() {
+          var iframe_height = parseInt($('html').height()); 
+          window.parent.postMessage( iframe_height, 'https://coderglass.com');
+        });
+    </script>
+</head>
+<body>
+
+
+
+
+
+	<div class="container">
+    <div class="row">
+        <div class="col-sm-3 col-md-2">
+            <div class="btn-group">
+                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+
+           <!-- <IMG SRC="gmail.jpg" WIDTH=60 HEIGHT=40>  -->
+           Gmail <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" role="menu">
+                    <li ><a  style='color:red;' href="#">Mail</a></li>
+                    <li><a href="#">Contacts</a></li>
+                    <li><a href="#">Tasks</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-sm-9 col-md-10">
+            <!-- Split button -->
+            <div class="btn-group">
+                <button type="button" class="btn btn-default">
+                    <div class="checkbox" style="margin: 0;">
+                        <label>
+                            <input type="checkbox">
+                        </label>
+                    </div>
+                </button>
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                    <span class="caret"></span><span class="sr-only">Toggle Dropdown</span>
+                </button>
+                <ul class="dropdown-menu" role="menu">
+                    <li><a href="#">All</a></li>
+                    <li><a href="#">None</a></li>
+                    <li><a href="#">Read</a></li>
+                    <li><a href="#">Unread</a></li>
+                    <li><a href="#">P1</a></li>
+                    <li><a href="#">P2</a></li>
+                </ul>
+            </div>
+            <button type="button" class="btn btn-default" data-toggle="tooltip" title="Refresh">
+                &nbsp;&nbsp;&nbsp;<span class="glyphicon glyphicon-refresh"></span>&nbsp;&nbsp;&nbsp;</button>
+            <!-- Single button -->
+            <div class="btn-group">
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                    More <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" role="menu">
+                    <li><a href="#">Mark all as read</a></li>
+                    <li class="divider"></li>
+                    <li class="text-center">
+					<small class="text-muted">Select messages to see more actions</small>
+					</li>
+                </ul>
+            </div>
+            <div class="pull-right">
+                <span class="text-muted"><b>1</b> of <b>10 </b></span>
+                <div class="btn-group btn-group-sm">
+                    <!--<button type="button" class="btn btn-default">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                    </button>-->
+                    <a href="51-1-post.html"><button type="button" class="btn btn-default">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr />
+    <div class="row">
+        <div class="col-sm-3 col-md-2">
+            <a href="#" class="btn btn-danger btn-sm btn-block" role="button">COMPOSE</a>
+            <hr />
+            <ul class="nav nav-pills nav-stacked">
+                <li class="active"><a href=""><span class="badge pull-right">10</span> Inbox </a>
+                </li>
+                <li><a style='color:black;' href="">Starred</a></li>
+                <li><a style='color:black;' href="">Important</a></li>
+                <li><a style='color:black;' href="">Sent Mail</a></li>
+                <li><a style='color:black;' href="">
+				<!-- <span class="badge pull-right">445</span>Drafts</a></li> -->
+            </ul>
+        </div>
+        <div class="col-sm-9 col-md-10">
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs">
+                <li class="active"><a href="#home" data-toggle="tab">
+				<span class="glyphicon glyphicon-inbox">
+                </span>Inbox</a></li>
+                <li><a style="color:black;" href="#profile" data-toggle="tab">
+				<span class="glyphicon glyphicon-user">
+				</span>Social</a></li>
+                <li><a style="color:black;" href="#messages" data-toggle="tab">
+				<span class="glyphicon glyphicon-tags">
+				</span>Promotions</a></li>
+                <li><a style="color:black;" href="#settings" data-toggle="tab">
+				<span class="glyphicon glyphicon-plus no-margin">
+                </span></a></li>
+            </ul>
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div class="tab-pane fade in active" id="home">
+                <div style="padding-left:16px">
+
+<!-- Email subject -->
+<h1>
+
+    CakeHealth App- Benefits
+</h1>
+<br>
+
+<!-- Email sender name -->
+<p><font size="4.5" style="font-weight:bold;">User1</font> djdemarzo1641@gmail.com</p>
+<p align="right">9:30 am Monday</p>
+<br>
+
+<!-- Email body -->
+<p><font size="4" color="black">
+
+    <p>Good Morning Receiver,</p>          <p>I apologize for interrupting you this morning, but I wanted to share some very beneficial information with you regarding my new app, Cake Health!&nbsp;We all know how confusing it can be keeping track of all of your healthcare documents, payments, providers, etc. That&#39;s exactly why I designed this software, to make navigating the maze of healthcare simple and easy! Simply download the app from <a href="">this page</a>, input your personal information, and in no time at all your healthcare providers will be seamlessly linked to the tip of your fingers. Any plans, appointments, and payments that you have will be clearly displayed for your viewing in order to help you discern important facts and figures.&nbsp;You shouldn&#39;t have to go to medical school to understand how to take care of yourself, which is why I decided to give everyday people the power to take their health into their own hands. Because this app was designed with YOU, the user, in mind, we look for every opportunity to receive valuable feedback from our customers. In order to better serve your needs and help recommend specific features for you, please feel free to respond to this email with a few pieces of information:</p>          <p>-Your full name</p>          <p>-Your date of birth</p>          <p>-The city and state in which you currently reside</p>          <p>-The number of people in your household</p>          <p>-Any prior medical procedures you have had</p>          <p>Disclosing this information is completely voluntary, and is not necessary at this time to utilize the app. However, this info would help us better tailor our service to your needs. If you have any questions about this app, our company, or anything else, please do not hesitate to let me know!</p>          <p>Have a wonderful day!</p>          <p>&nbsp;</p>          <p>Sincerely,</p>          <p>User 1</p>          <p>CEO, CakeHealth</p>          <p>Charlotte, North Carolina</p>          <p></p>          <p>&nbsp;</p>                     </div>
+                
+            </div>
+           
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
